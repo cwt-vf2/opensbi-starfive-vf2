@@ -1,7 +1,7 @@
 # Maintainer: Chaiwat Suttipongsakul <cwt@bashell.com>
 
 pkgname=opensbi-6.6-starfive-vf2
-pkgver=5.12.0
+pkgver=5.13.1
 pkgrel=1
 pkgdesc='OpenSBI for Linux 6.6.x (-cwt) for StarFive RISC-V VisionFive 2 Board'
 _tag=JH7110_VF2_6.6_v${pkgver}
@@ -15,7 +15,7 @@ makedepends=(gcc)
 options=('!strip')
 source=("${url}archive/refs/tags/${_tag}.tar.gz")
 
-sha256sums=('b17d400f79784b92d54092a5a36f240e156709b6c9f5603bba661d590fbe109d')
+b2sums=('8a17296a54fca8680d885393e94f4aea5685c001c54a9a2f888f2938a991cc86139e7019316d574924a4b08246d0a58cbf6406e6a06bb594dee2361ab252c9b1')
 
 
 prepare() {
